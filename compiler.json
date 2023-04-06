@@ -14,11 +14,6 @@
       "type": "adblock"
     },
     {
-      "name": "Hagezi - Threat Intelligence Feeds",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt",
-      "type":"adblock"
-    },
-    {
       "name": "Hagezi - Personal List",
       "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt",
       "type": "adblock"
@@ -46,11 +41,6 @@
     {
       "name": "Smart-TV Blocklist for AdGuard Home",
       "source": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS CNAME Cloaking Blocklist",
-      "source": "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains",
       "type": "adblock"
     },
     {
@@ -129,24 +119,9 @@
       "type": "adblock"
     },
     {
-      "name": "IDN: ABPindo",
-      "source": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "ITA: Filtri-DNS",
-      "source": "https://filtri-dns.ga/filtri.txt",
-      "type": "hosts"
-    },
-    {
       "name": "KOR: YousList",
       "source": "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt",
       "type": "hosts"
-    },
-    {
-      "name": "NOR: Dandelion Sprouts nordiske filtre",
-      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuardHome.txt",
-      "type": "adblock"
     },
     {
       "name": "Dandelion Sprout's Anti-Malware List (for AdGuard Home, and for AdGuard for Android/Windows' DNS filtering)",
@@ -154,33 +129,8 @@
       "type": "adblock"
     },
     {
-      "name": "POL: Polish filters for Pi hole",
-      "source": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "SWE: Frellwit's Swedish Hosts File",
-      "source": "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt",
-      "type": "hosts"
-    },
-    {
       "name": "CHN: anti-AD",
       "source": "https://anti-ad.net/easylist.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "NLD: Easylist",
-      "source": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "IRN: Unwanted Iranian domains",
-      "source": "https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/unwanted-iranian.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "MKD: Macedonian Pi-hole Blocklist",
-      "source": "https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt",
       "type": "adblock"
     },
     {
@@ -344,11 +294,6 @@
       "type": "adblock"
     },
     {
-      "name": "AdGuard CNAME disguised trackers list",
-      "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt",
-      "type": "adblock"
-    },
-    {
       "name": "Easylist Cookie List",
       "source": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
       "type": "adblock"
@@ -377,11 +322,6 @@
       "name": "The Blocklist Project - SmartTV",
       "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/smart-tv-ags.txt",
       "type": "adblock"
-    },
-    {
-      "name": "1Hosts - Xtra",
-      "source": "https://badmojr.github.io/1Hosts/Xtra/adblock.txt",
-      "type":"adblock"
     },
     {
       "name": "CipherOps - Regex",
