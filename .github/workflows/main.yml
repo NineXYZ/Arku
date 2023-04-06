@@ -3,11 +3,6 @@ name: CI
 
 # Define the events that trigger the workflow
 on:
-  # Run the workflow when changes are pushed to the main branch
-  push:
-    branches: [ "main" ]
-    # Skip CI jobs for commits that contain [ci skip] in the message
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
   # Schedule the workflow to run every 6 hours
   schedule:
     - cron: '0 */6 * * *'
