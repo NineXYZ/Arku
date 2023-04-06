@@ -1,0 +1,37 @@
+name: CLI
+
+on:
+  push:
+    branches: [ "main" ]
+    # Skip CI jobs for commits that contain [cli skip] in the message
+    # Change from [ci skip] to [cli skip]
+    if: "!contains(github.event.head_commit.message, '[cli skip]')"
+  # Schedule the workflow to run every 6 hours
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Skip CI jobs for commits that contain [cli skip] in the message
+    if: "!contains(github.event.head_commit.message, '[cli skip]')"
+    steps:
+      - name: Checkout files
+        uses: actions/checkout@v2
+      - name: Compile host list
+        id: compile
+        uses: Satellite-Galaxy/HostListCompiler-Action@latest
+        with:
+          config: compiler.json
+          output: hosts.txt
+      - name: Create Release
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          # Use the default GITHUB_TOKEN for pushing the release
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Compiled hosts"
+          files: |
+            hosts.txt
