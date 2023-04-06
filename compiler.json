@@ -264,11 +264,6 @@
       "type": "adblock"
     },
     {
-      "name": "The Blocklist Project - TikTok",
-      "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/tiktok-ags.txt",
-      "type": "adblock"
-    },
-    {
       "name": "Threat-Intel",
       "source": "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt",
       "type": "adblock"
@@ -312,16 +307,6 @@
       "name": "Firebog - RPiList-Malware",
       "source": "https://v.firebog.net/hosts/RPiList-Malware.txt",
       "type": "hosts"
-    },
-    {
-      "name": "The Blocklist Project - Ads",
-      "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/ads-ags.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "The Blocklist Project - SmartTV",
-      "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/smart-tv-ags.txt",
-      "type": "adblock"
     },
     {
       "name": "CipherOps - Regex",
