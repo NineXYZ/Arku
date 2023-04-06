@@ -10,7 +10,7 @@
     },
     {
       "name": "OISD Big",
-      "source": "https://raw.githubusercontent.com/sjhgvr/oisd/main/domains_big.txt",
+      "source": "https://big.oisd.nl/",
       "type": "adblock"
     },
     {
