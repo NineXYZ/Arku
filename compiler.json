@@ -4,13 +4,83 @@
   "homepage": "https://github.com/Satellite-Galaxy/Blocklists",
   "sources": [
     {
-      "name": "Hagezi - Pro++",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
+      "name": "Hagezi - Multi ULTIMATE - Aggressive protection",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt",
       "type": "adblock"
     },
     {
-      "name": "OISD Full",
-      "source": "https://abp.oisd.nl/",
+      "name": "OISD Big",
+      "source": "https://raw.githubusercontent.com/sjhgvr/oisd/main/domains_big.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "1Hosts Pro",
+      "source": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "NextDNS Privacy - Windows",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows",
+      "type": "adblock"
+    },
+    {
+      "name": "WindowsSpyBlocker - Hosts spy rules",
+      "source": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "The Blocklist Project - Ads",
+      "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/ads-ags.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters - Default",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters – Badware risks",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters – Privacy",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters – Resource abuse",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "uBlock filters – Unbreak",
+      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
+      "type": "adblock"
+    },
+    {
+      "name": "Lightswitch05 - Ads and Tracking",
+      "source": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Lightswitch05 - AMP Hosts",
+      "source": "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Lightswitch05 - Dating Services",
+      "source": "https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "Lightswitch05 - Tracking Aggressive",
+      "source": "https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt",
+      "type": "hosts"
+    },
+    {
+      "name": "NextDNS Privacy - Apple",
+      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple",
       "type": "adblock"
     }
   ],
