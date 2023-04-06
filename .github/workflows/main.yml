@@ -1,6 +1,9 @@
+# Name of the workflow
 name: CI
 
+# Define the events that trigger the workflow
 on:
+  # Run the workflow when changes are pushed to the main branch
   push:
     branches: [ "main" ]
     # Skip CI jobs for commits that contain [ci skip] in the message
@@ -8,28 +11,40 @@ on:
   # Schedule the workflow to run every 6 hours
   schedule:
     - cron: '0 */6 * * *'
+  # Allow the workflow to be manually triggered
   workflow_dispatch:
 
+# Define the jobs that make up the workflow
 jobs:
   build:
+    # The operating system to run the job on
     runs-on: ubuntu-latest
     # Skip CI jobs for commits that contain [ci skip] in the message
     if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    # Define the steps to run as part of the job
     steps:
+      # Check out the repository
       - name: Check out repository
         uses: actions/checkout@v2
+        # Use a token with push access to the repository
         with:
           token: ${{ secrets.GH_PUSH_TOKEN }}
+      # Compile the host list using the HostListCompiler-Action
       - name: Compile host list
         id: compile
         uses: Satellite-Galaxy/HostListCompiler-Action@latest
         with:
           config: compiler.json
           output: hosts.txt
+      # Commit and push the compiled host list back to the main branch
       - name: Commit and push compiled hosts file to main branch
         run: |
+          # Set the user information for the Git commit
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
+          # Stage the changes to the compiled hosts file
           git add hosts.txt
+          # Commit the changes with a descriptive message
           git commit -m "Update compiled host list"
+          # Push the changes back to the main branch
           git push
