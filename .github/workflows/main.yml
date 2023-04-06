@@ -30,4 +30,4 @@ jobs:
           message: "Update compiled host list"
           add: "hosts.txt"
           branch: "main"
-          token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
