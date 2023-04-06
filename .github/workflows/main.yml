@@ -16,18 +16,20 @@ jobs:
     # Skip CI jobs for commits that contain [ci skip] in the message
     if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
-      - name: Checkout files
+      - name: Check out repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_PUSH_TOKEN }}
       - name: Compile host list
         id: compile
         uses: Satellite-Galaxy/HostListCompiler-Action@latest
         with:
           config: compiler.json
           output: hosts.txt
-      - name: Push compiled hosts file to main branch
-        uses: EndBug/add-and-commit@v7
-        with:
-          message: "Update compiled host list"
-          add: "hosts.txt"
-          branch: "main"
-          github_token: ${{ secrets.GH_TOKEN }}
+      - name: Commit and push compiled hosts file to main branch
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add hosts.txt
+          git commit -m "Update compiled host list"
+          git push
