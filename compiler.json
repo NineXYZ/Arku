@@ -1,7 +1,7 @@
 {
-  "name": "Blocklist",
-  "description": "A aggressive adguard home blocklist",
-  "homepage": "https://github.com/Satellite-Galaxy/Blocklists",
+  "name": "🦊 Arku 🦊",
+  "description": "A compilation blocklist in Adguard home syntax.",
+  "homepage": "https://github.com/NineXYZ/Arku",
   "sources": [
     {
       "name": "Hagezi - Multi ULTIMATE - Aggressive protection",
