@@ -73,12 +73,12 @@
       "source": "https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt",
       "type": "hosts"
     },
-        {
+    {
       "name": "The Blocklist Project - Ads",
       "source": "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt",
       "type": "adblock"
     },
-     {
+    {
       "name": "The Blocklist Project - Tracking",
       "source": "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt",
       "type": "adblock"
