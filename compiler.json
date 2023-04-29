@@ -192,57 +192,57 @@
       "name": "anudeepND - Adservers",
       "source": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
       "type": "hosts"
-    }
+    },
     {
       "name": "Notracking blocklist",
       "source": "https://github.com/notracking/hosts-blocklists/raw/master/adblock/adblock.txt",
       "type": "adblock"
-    }
+    },
     {
       "name": "neohostsbasic",
       "source": "https://v.firebog.net/hosts/neohostsbasic.txt",
       "type": "adblock"
-    }
+    },
     {
       "name": "The SNAFU Blocklist",
       "source": "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
       "type": "adblock"
-    }
+    },
     {
       "name": "add.2o7Net",
       "source": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
       "type": "hosts"
-    }
+    },
     {
       "name": "Prigent-Ads",
       "source": "https://v.firebog.net/hosts/Prigent-Ads.txt",
       "type": "adblock"
-    }
+    },
     {
       "name": "First-party trackers host list",
       "source": "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt",
       "type": "hosts"
-    }
+    },
     {
       "name": "CoinBlockerLists",
       "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
       "type": "hosts"
-    }
+    },
     {
       "name": "Admiral",
       "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
       "type": "adblock"
-    }
+    },
     {
       "name": "Peter Lowe - pgl@yoyo.org",
       "source": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
       "type": "hosts"
-    }
+    },
     {
       "name": "Steven Black's ad-hoc list",
       "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts",
       "type": "hosts"
-    }
+    },
     {
       "name": "StevenBlack/hosts with the fakenews and gambling extensions",
       "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts",
