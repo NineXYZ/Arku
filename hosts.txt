@@ -1,8 +1,8 @@
-! Title: 🦊 Arku 🦊
+!
+! Title: 🦊 Arku - GAFAM 🦊
 ! Description: A compilation blocklist in Adguard home syntax.
-! Homepage: https://github.com/NineXYZ/Arku
 ! Homepage: https://github.com/NineXYZ/Arku/tree/GAFAM
-! Last modified: 2023-05-24T16:46:12.475Z
+! Last modified: 2023-05-24T16:51:36.314Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
