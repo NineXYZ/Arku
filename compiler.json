@@ -1,261 +1,41 @@
 {
-  "name": "🦊 Arku 🦊",
+  "name": "🦊 Arku - GAFAM 🦊",
   "description": "A compilation blocklist in Adguard home syntax.",
-  "homepage": "https://github.com/NineXYZ/Arku",
+  "homepage": "https://github.com/NineXYZ/Arku/tree/GAFAM",
   "sources": [
     {
-      "name": "Hagezi - Multi ULTIMATE - Aggressive protection",
-      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "OISD Big",
-      "source": "https://big.oisd.nl/",
-      "type": "adblock"
-    },
-    {
-      "name": "1Hosts Pro",
-      "source": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "WindowsSpyBlocker - Hosts spy rules",
-      "source": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
+      "name": "apple-telemetry",
+      "source": "https://raw.githubusercontent.com/cedws/apple-telemetry/master/blacklist",
       "type": "hosts"
     },
     {
-      "name": "The Blocklist Project - Ads",
-      "source": "https://raw.githubusercontent.com/Satellite-Galaxy/Lists/master/adguard/ads-ags.txt",
+      "name": "facebook-all",
+      "source": "https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all",
       "type": "adblock"
     },
     {
-      "name": "uBlock filters - Default",
-      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt",
+      "name": "Anudeep's Facebook Blacklist",
+      "source": "https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt",
       "type": "adblock"
     },
     {
-      "name": "uBlock filters – Badware risks",
-      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
+      "name": "amazon-adguard",
+      "source": "https://raw.githubusercontent.com/nickspaargaren/no-amazon/master/amazon-adguard.txt",
       "type": "adblock"
     },
     {
-      "name": "uBlock filters – Privacy",
-      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "uBlock filters – Resource abuse",
-      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "uBlock filters – Unbreak",
-      "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Lightswitch05 - Ads and Tracking",
-      "source": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
+      "name": "microsoft-all",
+      "source": "https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/microsoft/all",
       "type": "hosts"
     },
     {
-      "name": "Lightswitch05 - AMP Hosts",
-      "source": "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "Lightswitch05 - Dating Services",
-      "source": "https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "Lightswitch05 - Tracking Aggressive",
-      "source": "https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "The Blocklist Project - Ads",
-      "source": "https://blocklistproject.github.io/Lists/adguard/ads-ags.txt",
+      "name": "nickspaargaren/no-google",
+      "source": "https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google-adguard.txt",
       "type": "adblock"
     },
     {
-      "name": "The Blocklist Project - Tracking",
-      "source": "https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS CNAME Cloaking Blocklist",
-      "source": "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS Privacy - Apple",
-      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS Privacy - Alexa",
-      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS Privacy - Huawei",
-      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS Privacy - Roku",
-      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS Privacy - Samsung",
-      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS Privacy - Sonos",
-      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS Privacy - Windows",
-      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows",
-      "type": "adblock"
-    },
-    {
-      "name": "NextDNS Privacy - Xiaomi",
-      "source": "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/xiaomi",
-      "type": "adblock"
-    },
-    {
-      "name": "KOR: YousList",
-      "source": "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "AdGuard DNS filter",
-      "source": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Dandelion Sprout's Anti-Malware List (for AdGuard Home, and for AdGuard for Android/Windows' DNS filtering)",
-      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "CHN: anti-AD",
-      "source": "https://anti-ad.net/easylist.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "StevenBlack - Hosts",
-      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-      "type": "hosts"
-    },
-    {
-      "name": "Adblock Warning Removal List",
-      "source": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "ABP filters",
-      "source": "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "AdGuard CNAME disguised trackers list",
-      "source": "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Easylist Cookie List",
-      "source": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "EasyPrivacy",
-      "source": "https://easylist.to/easylist/easyprivacy.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "Dandelion Sprout's Anti-Malware List",
-      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "AdAway Default Blocklist",
-      "source": "https://adaway.org/hosts.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "anudeepND - Adservers",
-      "source": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "Notracking blocklist",
-      "source": "https://github.com/notracking/hosts-blocklists/raw/master/adblock/adblock.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "neohostsbasic",
-      "source": "https://v.firebog.net/hosts/neohostsbasic.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "The SNAFU Blocklist",
-      "source": "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "add.2o7Net",
-      "source": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
-      "type": "hosts"
-    },
-    {
-      "name": "Prigent-Ads",
-      "source": "https://v.firebog.net/hosts/Prigent-Ads.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "First-party trackers host list",
-      "source": "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt",
-      "type": "hosts"
-    },
-    {
-      "name": "CoinBlockerLists",
-      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
-      "type": "hosts"
-    },
-    {
-      "name": "Admiral",
-      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
-      "type": "adblock"
-    },
-    {
-      "name": "Peter Lowe - pgl@yoyo.org",
-      "source": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
-      "type": "hosts"
-    },
-    {
-      "name": "Steven Black's ad-hoc list",
-      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts",
-      "type": "hosts"
-    },
-    {
-      "name": "StevenBlack/hosts with the fakenews and gambling extensions",
-      "source": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts",
-      "type": "hosts"
-    },
-    {
-      "name": "antipopads:re",
-      "source": "https://raw.githubusercontent.com/AdroitAdorKhan/antipopads-re/master/formats/filter.txt",
-      "type": "adblock"
-    },
-    {
-      "name": "iam-py-test's Combo List",
-      "source": "https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt",
+      "name": "nickspaargaren/no-google-important",
+      "source": "https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google-adguard-important.txt",
       "type": "adblock"
     }
   ],
