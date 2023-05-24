@@ -40,6 +40,6 @@
     }
   ],
   "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"],
-  "exclusions": ["@@||fonts.gstatic.com^$important"],
+  "exclusions": [""],
   "inclusions": ["*"]
 }
