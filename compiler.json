@@ -260,8 +260,8 @@
     },
     {
       "name": "CoinBlockerList",
-      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/list_browser_UBO.txt",
-      "type": "adblock"
+      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser",
+      "type": "hosts"
     }
   ],
   "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"],
