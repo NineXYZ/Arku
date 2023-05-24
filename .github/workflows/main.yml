@@ -29,12 +29,6 @@ jobs:
         with:
           config: compiler.json
           output: hosts.txt
-      # Update the header in hosts.txt
-      - name: Update header in hosts.txt
-        run: |
-          sed -i '1s/.*/! Title: 🦊 Arku 🦊/' hosts.txt
-          sed -i '2s/.*/! Description: A compilation blocklist in Adguard home syntax./' hosts.txt
-          sed -i '3s/.*/! Homepage: https:\/\/github.com\/NineXYZ\/Arku/' hosts.txt
       # Commit and push the compiled host list back to the main branch
       - name: Commit and push compiled hosts file to main branch
         run: |
