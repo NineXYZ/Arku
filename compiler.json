@@ -257,6 +257,11 @@
       "name": "iam-py-test's Combo List",
       "source": "https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt",
       "type": "adblock"
+    },
+    {
+      "name": "CoinBlockerList",
+      "source": "https://zerodot1.gitlab.io/CoinBlockerLists/list_browser_UBO.txt",
+      "type": "adblock"
     }
   ],
   "transformations": ["Deduplicate", "Compress", "RemoveComments", "Validate"],
