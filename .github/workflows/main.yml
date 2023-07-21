@@ -4,8 +4,8 @@ name: CI
 # Define the events that trigger the workflow
 on:
   # Schedule the workflow to run every 6 hours
-  schedule:
-    - cron: '0 */6 * * *'
+ # schedule:
+ #   - cron: '0 */6 * * *'
   # Allow the workflow to be manually triggered
   workflow_dispatch:
 
